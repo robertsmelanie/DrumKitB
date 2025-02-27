@@ -10,12 +10,18 @@ body,html {
   font-family: sans-serif;
 }
 
+h1 {
+  /* background: url('./background1.jpg') bottom center;
+  background-size: cover; */
+}
+
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
-  align-items: center;
+  align-items: top;
   justify-content: center;
+  
 }
 
 .key {
@@ -30,6 +36,8 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 5px black;
+  height: 70px;
+  outline: 2px solid orange;
 }
 
 .playing {
@@ -55,4 +63,32 @@ h1 {
     border-color: orange;
     font-size: 10rem;
     text-align: center;
+}
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+   }
+
+   #answer {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
+.centered-text {
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
